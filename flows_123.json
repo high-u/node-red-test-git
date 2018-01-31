@@ -1,1 +1,67 @@
-[{"id":"79885531.c3894c","type":"tab","label":"フロー 1"},{"id":"bca2fd59.8c102","type":"git-nodes","z":"79885531.c3894c","label":"hoge git","username":"high-u","email":"zen.crazyd@gmail.com","git":"git@github.com:high-u/node-red-test-git.git","gitadd":"settings.js,package.json","gitrmcache":"nodes/*/x,nodes/*/y,nodes/*/z","debugging":true,"x":232,"y":207,"wires":[]},{"id":"3f5a3c2.29e46c4","type":"inject","z":"79885531.c3894c","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":111,"y":97,"wires":[["9e7b891d.5d78a8"]]},{"id":"3233f630.e0a5ba","type":"debug","z":"79885531.c3894c","name":"","active":true,"console":"false","complete":"false","x":616,"y":144,"wires":[]},{"id":"9e7b891d.5d78a8","type":"increment","z":"79885531.c3894c","name":"","target":"payload","x":341,"y":133,"wires":[["3233f630.e0a5ba"]]}]
+[
+    {
+        "id": "79885531.c3894c",
+        "type": "tab",
+        "label": "フロー 1"
+    },
+    {
+        "id": "bca2fd59.8c102",
+        "type": "git-nodes",
+        "z": "79885531.c3894c",
+        "label": "hoge git",
+        "username": "high-u",
+        "email": "zen.crazyd@gmail.com",
+        "git": "git@github.com:high-u/node-red-test-git.git",
+        "gitadd": "settings.js,package.json",
+        "gitrmcache": "nodes/*/x,nodes/*/y,nodes/*/z",
+        "debugging": true,
+        "x": 232,
+        "y": 207,
+        "wires": []
+    },
+    {
+        "id": "3f5a3c2.29e46c4",
+        "type": "inject",
+        "z": "79885531.c3894c",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 111,
+        "y": 97,
+        "wires": [
+            [
+                "9e7b891d.5d78a8"
+            ]
+        ]
+    },
+    {
+        "id": "3233f630.e0a5ba",
+        "type": "debug",
+        "z": "79885531.c3894c",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 554,
+        "y": 168,
+        "wires": []
+    },
+    {
+        "id": "9e7b891d.5d78a8",
+        "type": "increment",
+        "z": "79885531.c3894c",
+        "name": "",
+        "target": "payload",
+        "x": 341,
+        "y": 133,
+        "wires": [
+            [
+                "3233f630.e0a5ba"
+            ]
+        ]
+    }
+]
